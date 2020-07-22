@@ -1,5 +1,5 @@
 // There are 3 hackers who try to break into a password protected vault. Another police threat starts a countdown
-// and if police thread catches them it shows which all hackers were and arrest them and also show show countdown
+// and if police thread catches them it shows which all hackers were and also concurrently show countdown
 // timer
 
 package ThreadCreation.HackerProblem;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Hacker {
+public class HackerProblem {
     public static final int MAX_PASSWORD = 9999;
     public static void main(String[] args) throws InterruptedException{
         Random random = new Random();

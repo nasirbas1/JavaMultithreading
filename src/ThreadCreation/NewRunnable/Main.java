@@ -1,6 +1,6 @@
 package ThreadCreation.NewRunnable;
 
-public class NewHello {
+public class Main {
     public static void main(String[] args) throws InterruptedException{
         Thread thread1 = new Thread(new Runnable() {
             @Override
@@ -21,9 +21,9 @@ public class NewHello {
             }
         });
         System.out.println("We are in" + Thread.currentThread().getName());
-        thread1.setName("HellBoy");
-        thread2.setName("HoneyBoy");
-        thread3.setName("ChillBoy");
+        thread1.setName("Thread 1");
+        thread2.setName("Thread 2");
+        thread3.setName("Thread 3");
         thread2.setPriority(Thread.MAX_PRIORITY);
         thread1.setPriority(3);
         thread3.setPriority(Thread.NORM_PRIORITY);
@@ -34,9 +34,3 @@ public class NewHello {
         Thread.sleep(10000);
     }
 }
-
-//        We are in main
-//        We are in HoneyBoy
-//        We are in ChillBoy
-//        We are in main
-//        We are in HellBoy

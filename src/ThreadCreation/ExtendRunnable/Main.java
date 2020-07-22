@@ -1,9 +1,9 @@
 package ThreadCreation.ExtendRunnable;
 
-public class Hello {
+public class Main {
     public static void main(String[] args) throws InterruptedException{
        Thread thread = new NewThread();
-       thread.setName("Hulaaa");
+       thread.setName("New Runnable Thread");
        thread.start();
     }
 
