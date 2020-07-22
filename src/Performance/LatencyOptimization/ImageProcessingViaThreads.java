@@ -1,6 +1,6 @@
 // The idea of the task is to convert an image which has some white lillies into an image where all the lillies are white
 // we will be optimizing for the latency here by breaking it into multithreaded solution later
-package Performance.ImageProcessing;
+package Performance.LatencyOptimization;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
